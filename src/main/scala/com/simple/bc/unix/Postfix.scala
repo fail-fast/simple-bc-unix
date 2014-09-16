@@ -85,6 +85,11 @@ class Postfix(infix: String) {
 
   }
 
+  /**
+   * Evaluate the postfix notation and return the arithmetic
+   * @param postfix
+   * @return
+   */
   def evaluate(postfix: String): Double = {
 
     val stack = new mutable.Stack[Double]
